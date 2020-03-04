@@ -1,0 +1,125 @@
+
+
+#navbarNav{
+padding-left: 42%;
+}
+.price{
+    text-align: center;
+}
+.background-color{
+    background-color: rgb(252, 252, 247);
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+p{
+    color: gray;
+    padding: 10px 0px;
+}
+.buy-now-button{
+    color:white;
+    background-color: black;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+#wrapper{
+    text-align: center;
+}
+.buy-button{
+    color:white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 9px 12px;
+}
+
+.anchor{
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.text{
+    color: orange;
+    
+}
+.card-title, .card-text{
+    text-align: center;
+}
+.carousel-indicators li{
+    background-color: orange;
+    height: 5px;
+    border-radius: 10px;
+}
+.card{
+    border: none;
+    box-shadow: 0px 4px 10px 0px  rgb(252, 227, 227);
+    
+}
+.underline{
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+.underline::after{
+    content: '';
+    height: 5px;
+    width: 10%;
+    background:orange;
+    position: absolute;
+    left:calc(100% - 55%);
+    bottom: 0;
+    top: 10px;
+    margin-top: 3%;
+    border-radius: 10px; 
+}
+@media (min-width:450px) and (max-width:767px){
+    .underline{
+        text-align: center;
+        position: relative;
+        text-decoration: none;
+    }
+    .underline::after{
+        content: '';
+        height: 5px;
+        width: 15%;
+        background:orange;
+        position: absolute;
+        left:calc(100% - 58%);
+        bottom: 0;
+        top: 20px;
+        margin-top: 4%;
+        border-radius: 10px; 
+    }
+}
+@media (min-width:450px) and (max-width:767px){
+    .carousel-item{
+        
+    }
+    
+}
+.catagory{
+    box-shadow: 2px 3px 10px gray;
+    padding: 60px; 
+    border-radius: 0px 0px 50px; 
+    margin-bottom: 40px;
+    text-align: center;
+}
+@media (min-width:768px) and (max-width:991px){
+    .catagory{
+        box-shadow: 2px 3px 10px gray;
+        padding: 20px 10px ; 
+        border-radius: 0px 0px 50px; 
+        margin-bottom: 40px;
+        text-align: center;
+
+    }
+    .underline::after{
+        margin-top: 4%;
+    }
+    .pale-order img{
+        width: 100%;
+    }
+}
+
+
